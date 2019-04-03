@@ -11,7 +11,7 @@
  
 set PSFFILE [glob ../struct_coor/*psf]
 set PDBFILE [glob ../struct_coor/*pdb]
-set GRIDPDB [glob ../input/grid*.pdb]
+set GRIDPDB [glob ../input/*grid*.pdb]
 set GBISON 1
 set DIEL 1
 set SCALING_1_4 1.0
@@ -25,7 +25,7 @@ set FIXPDB 0
 set FIXCOL O
 set GRIDON 1
  
-set INPUTNAME ../../ReMDFF_rerun_GIT_190326/namd/output/0/mdff-step1.job0
+set INPUTNAME  ../../ReMDFF-Book-Chapter/input-files-true-potential/output/0/mdff-step1.job0
 set OUTPUTNAME ../output/Mdff-step1
  
 
